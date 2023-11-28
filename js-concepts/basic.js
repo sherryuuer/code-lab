@@ -1,9 +1,16 @@
+
+// 逻辑运算
+// && and || or ! not
+if (!(username === "Bob")){alert("opps");}
+
 // Control Flow
 var username = "Billy";
-if (username === "Billy") {
+if (username === "Billy"){
     alert("Hi, Billy");
+} else if (username === "Susy"){
+    alert("Hi, Susy");
 } else {
-    alert("Sorry, I don't know you.")
+    alert("Sorry, I don't know you.");
 }
 
 

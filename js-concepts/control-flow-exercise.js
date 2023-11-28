@@ -11,6 +11,26 @@ if (user_age < 18){
 }
 // IF they say they are 18, respond with:
 // "Congratulations on your first year of driving. Enjoy the ride!"
-
+else if (user_age === 18){
+    alert("Congratulations on your first year of driving. Enjoy the ride!")
+}
 // IF they say they are over 18, respond with:
 // "Powering On. Enjoy the ride!"
+else{
+    alert("Powering On. Enjoy the ride!")
+}
+
+
+// answer:
+// 忘记写Number转换了！然后为什么两个else if，else似乎不是必须的
+var age = prompt("What is your age?");
+
+if (Number(age) < 18) {
+	alert("Sorry, you are too yound to drive this car. Powering off");
+} else if (Number(age) > 18) {
+	alert("Powering On. Enjoy the ride!");
+} else if (Number(age) === 18) {
+	alert("Congratulations on your first year of driving. Enjoy the ride!");
+}
+
+
