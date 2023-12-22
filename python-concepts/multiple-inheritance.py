@@ -1,5 +1,5 @@
 class User:
-    def login():
+    def login(self):
         return 'login'
 
 
@@ -32,9 +32,12 @@ class Yoda(Wizard, Archar):
         Wizard.__init__(self, name, power)
         Archar.__init__(self, name, arrows)
 
-# archar = Archar("Jack", 20)
-# print(archar.attack())
+
+archar = Archar("Jack", 20)
+print(archar.attack())
 
 
 master = Yoda('Sally', power=100, arrows=30)
+print(master.name)
+print(master.login())
 print(master.attack())
