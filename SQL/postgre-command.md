@@ -1,4 +1,4 @@
-login database
+login database with database name
 `psql -p5432 sallyw`
 create database: store, employees, france, world
 `CREATE DATABASE name;` 
@@ -13,3 +13,6 @@ list all the table
 `\dt`
 change the database
 `\c name`
+
+set timezont
+`ALTER DATABASE dbname SET timezone TO 'Asia/Tokyo';`
