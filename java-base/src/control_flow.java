@@ -1,7 +1,19 @@
-import java.util.Calendar;
+import java.util.Scanner;
 
 public class control_flow {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input;
+
+        do {
+            System.out.println("Enter your name: ");
+            input = scanner.nextLine();
+        } while (input.length() < 2);
+
+        scanner.close();
+        // 安全关闭
+
+        // *******
         int ret;
         int age = 4;
         String value = "OK";
@@ -16,51 +28,6 @@ public class control_flow {
         } // ||:or &&:and ==:equal
 
         System.out.println(ret);
-
-        // calander
-        Calendar calendar = Calendar.getInstance();
-        int month = calendar.get(Calendar.MONTH) + 1;
-
-        String monthName = "";
-
-        if (month == 1) {
-            monthName = "January";
-        }
-        if (month == 2) {
-            monthName = "February";
-        }
-        if (month == 3) {
-            monthName = "March";
-        }
-        if (month == 4) {
-            monthName = "April";
-        }
-        if (month == 5) {
-            monthName = "May";
-        }
-        if (month == 6) {
-            monthName = "June";
-        }
-        if (month == 7) {
-            monthName = "July";
-        }
-        if (month == 8) {
-            monthName = "August";
-        }
-        if (month == 9) {
-            monthName = "September";
-        }
-        if (month == 10) {
-            monthName = "October";
-        }
-        if (month == 11) {
-            monthName = "November";
-        }
-        if (month == 12) {
-            monthName = "December";
-        }
-
-        System.out.println(monthName);
 
         // get the largest number in 3 nums
         int num1 = 54;
@@ -101,6 +68,18 @@ public class control_flow {
             System.out.println("合格");
         } else {
             System.out.println("不合格");
+        }
+
+        // switch
+        switch (age) {
+            case 4:
+                System.out.println("You are 4!");
+                break;
+            case 5:
+                System.out.println("Your are 5~");
+                break;
+            default:
+                System.out.println("Nothing");
         }
     }
 
