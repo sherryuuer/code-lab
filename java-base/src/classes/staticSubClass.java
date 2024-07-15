@@ -1,3 +1,5 @@
+package classes;
+
 class staticSubClass {
     public static void add(int a, int b) {
         int res = a * b;

@@ -1,3 +1,5 @@
+package arrays;
+
 public class Primitives_Arrays_Casting {
     public static void main(String[] arges) {
         int a = 5;

@@ -1,3 +1,5 @@
+package classes;
+
 public class Methods {
     public static void main(String[] args) {
         greet();

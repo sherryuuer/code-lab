@@ -1,3 +1,5 @@
+package arrays;
+
 public class averageOfOdd {
     public static void main(String[] args) {
         int[] array = { 23, 4, 343, 89, 9, 68, 2 };
