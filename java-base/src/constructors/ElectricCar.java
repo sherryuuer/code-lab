@@ -8,4 +8,8 @@ public class ElectricCar extends Car {
         this.batteryCapacity = batteryCapacity;
     }
 
+    public void print() {
+        System.out.println(batteryCapacity);
+    }
+
 }

@@ -11,4 +11,8 @@ public class Dog extends Animal {
     public Dog() {
         this("Shiba", "Emi", 4);
     }
+
+    public void print() {
+        System.out.println(breed);
+    }
 }

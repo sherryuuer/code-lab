@@ -8,4 +8,9 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
+    public void print() {
+        System.out.println(name);
+        System.out.println(age);
+    }
 }

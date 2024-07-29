@@ -6,4 +6,8 @@ public class Vehicle {
     public Vehicle(String brand) {
         this.brand = brand;
     }
+
+    public void print() {
+        System.out.println(brand);
+    }
 }

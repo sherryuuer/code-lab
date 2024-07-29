@@ -6,5 +6,8 @@ public class GameStatusesExample {
             System.out.println(status);
         }
         GameStatus gameStatus = GameStatus.PAUSED;
+
+        System.out.println(gameStatus);
+
     }
 }

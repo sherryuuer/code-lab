@@ -7,4 +7,8 @@ public class Car extends Vehicle {
         super(brand);
         this.model = model;
     }
+
+    public void print() {
+        System.out.println(model);
+    }
 }

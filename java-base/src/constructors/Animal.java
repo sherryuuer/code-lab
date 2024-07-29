@@ -8,4 +8,9 @@ public class Animal {
         this.species = species;
         this.age = age;
     }
+
+    public void print() {
+        System.out.println(species);
+        System.out.println(age);
+    }
 }
