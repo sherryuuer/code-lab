@@ -1,0 +1,22 @@
+- https://pythex.org/
+
+- \d 所有数字
+- \D 所有非数字
+- \w 所有字母和数字
+- \W 所有非字母和数字（比如空格和标点）
+- \s 所有空格（space）
+- \S 所有非空格（space）
+- range: [0-9A-Za-z] 比如
+- [tlc1-3] 匹配的是一个区间或者几个字母
+- [A-Z][a-z]匹配的是一个大字母一个小字母组合，注意and/or关系
+- ｜ 一个竖线表示or
+- ^ 表示否定，比如[^A-Za-z0-9]表示所有的非字母和数字
+- * 表示0或者多个
+- + 表示1个或多个（至少有一个）
+- ？表示0或者1个
+- {m, n} 用户定义匹配个数，m～n个
+- ^ $ 开始和结束符
+
+- findall 是找到所有模式并返回一个list：`re.findall(pattern, 对象text)`
+- sub 是查找和替换：`re.sub(pattern, 替换的string, 对象text)`
+- compile 的优点是 performance 高
