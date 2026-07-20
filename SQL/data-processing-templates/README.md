@@ -1,6 +1,6 @@
 # SQL Data Processing Templates
 
-These templates are for Google Cloud Consultant / Data Analytics interview practice.
+These templates are for general SQL data processing practice.
 
 They focus on practical data engineering SQL patterns:
 
