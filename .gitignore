@@ -1,2 +1,27 @@
-python-unittest/__pycache__
+# macOS
 .DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration / secrets
+.env
+.env.*
+*.local
+
+# Notebook checkpoints
+.ipynb_checkpoints/

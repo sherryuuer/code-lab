@@ -4,6 +4,17 @@ DWH、Data Mart、Dashboard、Analytical Reporting で使われる SQL を Revie
 
 ## 主な Review 観点
 
+Default framework:
+
+```text
+Data Quality
+Security
+Scalability
+Reliability
+Maintainability
+Cost
+```
+
 - Source Table と Final Output の Grain が合っているか。
 - JOIN によって Row Duplication が起きていないか。
 - Filter が不足、または誤っていないか。
@@ -31,19 +42,24 @@ DWH、Data Mart、Dashboard、Analytical Reporting で使われる SQL を Revie
 ## Review 出力テンプレート
 
 ```md
-## Findings
+## Read
 
-- Severity:
-- Location:
-- Issue:
-- Impact:
-- Suggested Fix:
+-
+
+## Evaluate
+
+- Data Quality:
+- Security:
+- Scalability:
+- Reliability:
+- Maintainability:
+- Cost:
 
 ## Open Questions
 
-- 
+-
 
 ## Better Approach
 
-- 
+-
 ```

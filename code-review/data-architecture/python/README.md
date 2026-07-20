@@ -4,6 +4,15 @@ Data Ingestion、Transformation、API Integration、Validation、Scheduled Job �
 
 ## 主な Review 観点
 
+Review flow:
+
+```text
+1. Read: summarize the code.
+2. Explain: explain why it may be implemented this way.
+3. Evaluate: check data quality, security, scalability, reliability, maintainability, and cost.
+4. Improve: propose code-level, architecture-level, and production-ready improvements.
+```
+
 - Error Handling が不足していないか。
 - Write Process が Idempotent になっているか。
 - Unsafe Overwrite / Append がないか。
